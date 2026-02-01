@@ -1,0 +1,108 @@
+# Build directories
+build/
+cmake-build-*/
+.cmake/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.bak
+
+# Compiled files
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Object files
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.so.*
+*.dylib
+
+# Executables
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+local.properties
+.gradle/
+.cxx/
+.externalNativeBuild/
+
+# NDK
+obj/
+libs/
+jni/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Generated documentation
+docs/html/
+docs/latex/
+docs/man/
+
+# Test results
+test_results/
+*.test
+*.tlog
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Profiling
+gmon.out
+*.profdata
+*.profraw
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# Original binary (keep for reference but don't track changes)
+# libBlackBox.so
+
+# Dependency files
+*.d
